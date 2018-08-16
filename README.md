@@ -17,7 +17,7 @@ npm install -g cyb-cli
 ```bash
 # 克隆项目
 
-git clone https://github.com/jd-cyb/cyb-ant-design-pro
+git clone https://github.com/jd-cyb/cyb-ant-design-pro.git
 
 # 安装依赖
 
