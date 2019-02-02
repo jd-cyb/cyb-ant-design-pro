@@ -24,7 +24,17 @@ module.exports = {
   },
   module: {
     rules: [
-      ...(config.eslint.available ? [eslintLoader()] : [])
+      ...(config.eslint.available ? [eslintLoader()] : []),
+      {
+        test: /\.js$/,
+        exclude: /(node_modules|bower_components)/,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            babelrc: true
+          }
+        }
+      }
     ]
   }
 }

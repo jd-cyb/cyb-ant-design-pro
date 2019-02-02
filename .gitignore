@@ -17,3 +17,4 @@ fez-*
 *.njsproj
 *.sln
 .log
+yarn.lock
